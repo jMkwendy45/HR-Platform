@@ -31,7 +31,7 @@ export function AppSidebar() {
   const collapsed = state === "collapsed";
 
   return (
-    <Sidebar collapsible="icon" className="border-r border-gray-100 bg-white">
+    <Sidebar collapsible="offcanvas" className="border-r border-gray-100 bg-white">
       <SidebarLogo collapsed={collapsed} />
       <SidebarNav items={navItems} collapsed={collapsed} />
       <SidebarHelp collapsed={collapsed} />
