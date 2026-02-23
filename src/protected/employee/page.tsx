@@ -75,9 +75,9 @@ const Employees = () => {
         </div>
 
         <div className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm">
-          <Table>
-            <TableHeader className="bg-slate-50/50">
-              <TableRow className="hover:bg-transparent">
+          <Table className="">
+            <TableHeader className="bg-slate-50/50 border-slate-100">
+              <TableRow className="hover:bg-transparent border-slate-100">
                 <TableHead className="font-semibold text-slate-700">
                   Employee
                 </TableHead>
@@ -112,7 +112,7 @@ const Employees = () => {
                 employeeList.map((emp: any) => (
                   <TableRow
                     key={emp.id}
-                    className="cursor-pointer hover:bg-slate-50/50 transition-colors"
+                    className="cursor-pointer hover:bg-slate-50/50 transition-colors  border-slate-100"
                     onClick={() => navigate(`/employees/${emp.id}`)}
                   >
                     <TableCell>
