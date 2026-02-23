@@ -17,8 +17,8 @@ import SidebarHelp from "../side-bar-help/side-bar-help";
 const navItems = [
   { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
   { title: "Employees", url: "/employees", icon: Users },
-  { title: "Time & Attendance", url: "#", icon: Clock },
-  { title: "Recruitment", url: "#", icon: Briefcase },
+  { title: "Time & Attendance", url: "", icon: Clock },
+  { title: "Recruitment", url: "", icon: Briefcase },
   { title: "Payroll", url: "#", icon: DollarSign },
   { title: "Calendar", url: "#", icon: CalendarDays },
   { title: "Reports", url: "#", icon: BarChart3 },
