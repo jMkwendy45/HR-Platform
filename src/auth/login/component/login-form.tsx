@@ -85,7 +85,7 @@ export default function LoginForm() {
               </Label>
               <button
                 type="button"
-                className="text-xs font-medium text-[#1d61fb] hover:underline"
+                className="text-xs font-medium text-[#155DFC] hover:underline"
               >
                 Forgot Password?
               </button>
@@ -126,7 +126,7 @@ export default function LoginForm() {
           <Button
             type="submit"
             disabled={isPending}
-            className="w-full h-11 bg-[#1d61fb] hover:bg-[#1d61fb]/90 text-sm text-white font-bold"
+            className="w-full h-11 bg-[#155DFC] hover:bg-[#1d61fb]/90 text-sm text-white font-bold"
           >
             {isPending ? "Signing in..." : "Sign In"}
           </Button>
@@ -153,7 +153,7 @@ export default function LoginForm() {
 
         <p className="text-center text-sm text-gray-500">
           Don't have an account?{" "}
-          <button className="font-semibold text-[#1d61fb] hover:underline">
+          <button className="font-semibold text-[#155DFC] hover:underline">
             Contact your administrator
           </button>
         </p>
