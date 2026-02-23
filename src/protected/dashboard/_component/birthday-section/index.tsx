@@ -18,7 +18,7 @@ export function BirthdaysSection() {
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {birthdays.map((person) => (
-          <div key={person.name} className="flex items-center gap-4 p-4 bg-purple-200 rounded-xl border border-purple-50">
+          <div key={person.name} className="flex items-center gap-4 p-4 bg-purple-100 rounded-xl border border-purple-50">
             <Avatar className="h-12 w-12 border-2 border-white">
               <AvatarFallback className="bg-purple-100 text-purple-600 font-bold">
                 {person.initials}
