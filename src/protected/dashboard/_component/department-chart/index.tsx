@@ -4,7 +4,7 @@ import { departmentData } from "../../../data/mock-data";
 
 export function DepartmentChart() {
   return (
-    <Card className="border-none shadow-sm rounded-xl">
+    <Card className="border-none shadow-sm rounded-xl bg-white">
       <CardHeader>
         <CardTitle className="text-[15px] font-bold">Department Distribution</CardTitle>
         <p className="text-[12px] text-slate-400">Current workforce breakdown</p>

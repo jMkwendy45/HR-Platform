@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "../../../../components
 
 export function HeadcountChart() {
   return (
-    <Card className="border-none shadow-sm rounded-xl">
+    <Card className="border-none shadow-sm rounded-xl bg-white">
       <CardHeader>
         <CardTitle className="text-[15px] font-bold">Headcount Growth</CardTitle>
         <p className="text-[12px] text-slate-400">Last 7 months</p>

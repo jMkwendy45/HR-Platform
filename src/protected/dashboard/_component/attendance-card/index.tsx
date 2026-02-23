@@ -7,7 +7,7 @@ export function AttendanceCard() {
   const activePercent = Math.round((activeWorkforce / attendanceData.total) * 100);
 
   return (
-    <Card className="md:col-span-4 border-none shadow-sm rounded-xl">
+    <Card className="md:col-span-4 border-none shadow-sm rounded-xl bg-white">
       <CardHeader className="pb-2">
         <CardTitle className="text-[15px] font-bold flex items-center gap-2">
           <Clock className="h-4 w-4 text-blue-500" />
