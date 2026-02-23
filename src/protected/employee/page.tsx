@@ -144,7 +144,7 @@ const Employees = () => {
                     </TableCell>
                     <TableCell className="text-right">
                       <span
-                        className={`px-3 py-1 rounded-full text-xs font-medium ${statusStyles[emp.status] || "bg-green-50 text-green-600"}`}
+                        className={`px-4 py-2 rounded-full text-xs font-medium ${statusStyles[emp.status] || "bg-green-50 text-green-600"}`}
                       >
                         {emp.status || "Active"}
                       </span>
